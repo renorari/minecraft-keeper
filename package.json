@@ -1,0 +1,36 @@
+{
+  "name": "minecraft-keeper",
+  "version": "1.0.0",
+  "description": "A simple Minecraft Client for keeping your Minecraft account online.",
+  "private": true,
+  "homepage": "https://github.com/renorari/minecraft-keeper#readme",
+  "bugs": {
+    "url": "https://github.com/renorari/minecraft-keeper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renorari/minecraft-keeper.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": "Renorari",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node main.ts",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.2",
+    "globals": "^17.4.0",
+    "jiti": "^2.6.1",
+    "typescript-eslint": "^8.56.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
