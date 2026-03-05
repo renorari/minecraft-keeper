@@ -38,4 +38,5 @@ client.on("login", async () => {
 
 client.on("end", () => {
     logger.info("Connection closed");
+    process.exit(0);
 });
